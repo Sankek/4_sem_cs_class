@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(s1)
+project(seminar_02)
 
 find_package(Boost 1.75.0)
 if(Boost_FOUND)
