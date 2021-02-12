@@ -5,6 +5,7 @@ find_package(Boost 1.75.0)
 if(Boost_FOUND)
     include_directories(${Boost_INCLUDE_DIRS})
     add_executable(circular_buffer circular_buffer.cpp)
+    add_executable(circular_buffer_linearization circular_buffer_linearization.cpp)
     add_executable(multiarray multiarray.cpp)
 endif()
 
