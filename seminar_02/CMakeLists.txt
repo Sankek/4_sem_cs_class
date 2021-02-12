@@ -10,7 +10,7 @@ endif()
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(s1 main.cpp)
+add_executable(main main.cpp)
 add_executable(tuple_printer tuple_printer.cpp)
 add_executable(forward_list forward_list.cpp)
 add_executable(bitset bitset.cpp)
